@@ -1,0 +1,110 @@
+/* star(*) applies to everything in the webpage*/
+
+* {
+    margin: 0;
+}
+
+/* everything in the html*/
+html {
+    height: 100vh;
+}
+
+body {
+    box-sizing: border-box;
+    padding-top: 80px;
+    height: 100%;
+}
+
+
+/* navbar as a whole */
+nav {
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    border-bottom: 4px solid green;
+    box-shadow: 10px 10px 10px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/*will format all of the p tags in the nav bar*/
+nav p {
+    color: black;
+    height: 70px;
+    position: absolute;
+    top: 20px;
+}
+
+/*not the best way, but will separate the navbar titles individually */
+.p1 {
+    left: 20px;
+}
+
+.p2 {
+    left: 100px;
+}
+
+.p3 {
+    left: 200px;
+}
+
+/* box in navbar*/
+.box1 {
+    height: 80px;
+    width: 80px;
+    border: 3px green;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.container {
+    height: 800px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
+
+.box2{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    background-color: white;
+}
+
+.box3{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    background-color: white;
+}
+
+.box4{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    background-color: white;
+}
+
+#footer {
+    height: 80px;
+    width: 100%;
+    position: relative;
+    background-color: white;
+    border-top: 2px solid black;
+    bottom: 0;
+}
+
+#footer-content {
+    position: absolute;
+}
+
+.h1{
+    color: black;
+    text-align: center;
+}
